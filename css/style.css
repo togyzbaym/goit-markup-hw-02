@@ -138,13 +138,14 @@ body {
   display: inline-block;
   list-style-type: none;
 }
+/*========END SERVISES============*/
+
 /*==============TEAM ===================*/
 .team-list-itme {
   list-style-type: none;
   display: inline-block;
 }
 
-/*========END SERVISES============*/
 /*=========fOOTER============*/
 .address-link {
   font-style: normal;

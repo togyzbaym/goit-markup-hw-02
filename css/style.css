@@ -4,6 +4,8 @@
   --active-color: #87cefa;
   --titles-color: #212121;
   --discreption-color: #757575;
+  --footer-color: #2f303a;
+  --text-letter-spacing: 0.03em;
 }
 
 body {
@@ -19,7 +21,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-letter-spacing);
   color: #2196f3;
   text-decoration: none;
 }
@@ -99,7 +101,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-letter-spacing);
   text-transform: uppercase;
   color: var(--titles-color);
 }
@@ -107,7 +109,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-letter-spacing);
   color: var(--discreption-color);
 }
 
@@ -119,7 +121,7 @@ body {
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-letter-spacing);
   color: var(--titles-color);
 }
 .servises-list-itme {
@@ -140,7 +142,7 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-letter-spacing);
   text-decoration: none;
   color: #ffffff;
 }
@@ -170,7 +172,7 @@ body {
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-letter-spacing);
   color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
@@ -230,13 +232,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-letter-spacing);
   color: var(--titles-color);
 }
 .sub-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
-  letter-spacing: 0.03em;
+  letter-spacing: var(--text-letter-spacing);
   color: var(--discreption-color);
 }
